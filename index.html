@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Surya H R</h2>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <span class="menu-icon" onclick="toggleMenu()">☰</span>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div >
+    <h1>Hello, I'm Surya</h1>
+    <p class="hero-para"> A passionate Web Developer.</p>
+    <br>
+    <a href="#projects" class="btn">See My Work</a>
+    </div>
+    <div class="image">
+      <img src="images/profile pic.png" class="picture">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-u">
+      <div class="about-me">
+     <p>Hi! I’m Surya, a passionate Web Developer who loves creating modern, 
+      interactive, and user-friendly websites. I specialize in HTML, CSS, JavaScript, 
+      and enjoy building responsive designs that work seamlessly across all devices.
+    </p>
+    </div>
+    <div class="about-me"><h3>Education</h3>
+      <p>Maharaja Institute Of Technology,Mysore</p>
+      <p>Information Science and Engineering</p>
+      <p>2022-2026</p>  
+      <p>Cgpa-8.5</p>
+    </div>
+    </div>
+  </section>
+
+  <!-- skill section -->
+   <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="lang">
+      <div class="pro">Python</div>
+      <div class="pro">C programming</div>
+      <div class="pro">Html,Css</div>
+      <div class="pro">Sql</div>
+    </div>
+   </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">Spyder web game</div>
+      <div class="project-card">Forensic face sketch construction and recognition</div>
+      <div class="project-card">Skill swap</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow me on <a href="https://www.linkedin.com/in/suryahr2004" class="link">linkedin.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body> 
+</html>
